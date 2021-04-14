@@ -1,0 +1,35 @@
+#mixitup {
+    text-align: center !important;
+}
+#portfolio{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.portfolio-filter ul {
+    width: 100%;
+    text-align: center;
+}
+.portfolio-filter li {
+    display: inline-block;
+    float: none;
+    padding: 10px;
+    border: 1px solid #52d681;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+#portfolio #portfolio-items .portfolio-item {
+    display: inline-block;
+    width: 22%;
+    display: none;
+    position: relative;
+    line-height: 10px;
+    padding: 10px 10px;
+}
+.portfolio-item .text-center{
+    font-size: 16px; 
+}
+.portfolio-item .img-responsive{
+    height: 200px;
+    width: 100%;
+}

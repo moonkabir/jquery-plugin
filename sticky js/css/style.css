@@ -1,0 +1,145 @@
+body{
+	font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+img{
+	width: 100%;
+}
+
+#header{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar{
+	background-color:#000000;
+	margin-bottom: 0px;
+}
+.navbar-brand{
+	background:#009688;
+	color: white;
+}
+.navbar-brand:hover{
+	background: #cccccc;
+}
+ul li a{
+	color: white;
+}
+ul>li>a.m:hover{
+	background: white;
+}
+.dropdown-toggle:hover{
+	background:##C8C8C8;
+}
+.dropdown-menu a:hover{
+	background: #cccccc;
+}
+.glyphicon{
+	color: white;
+	padding-left: 10px;
+}
+#gly:hover{
+	background:#009688;
+}
+.item img{
+	width: 100% !important;
+}
+
+.navbar-header .navbar-toggle{
+	background-color:white !important;
+}
+.navbar-header .navbar-toggle .icon-bar{
+	background-color: green !important;
+}
+.heading{
+	text-align: center;
+	padding-top: 40px;
+}
+.body{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
+.testimonial img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;	
+}
+.testimonial img:hover{
+	opacity: 0.6
+}
+.testimonial{
+	text-align: center;
+	padding-bottom: 50px;
+}
+#project{
+	background: #333333;
+	color: white;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	padding-right: 20px; 
+}
+#discription{
+	background-color: white;
+	color: black;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+#title{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+#heading{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background: black;
+}
+#heading-two{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background: #666666;
+}
+#table ul{
+	list-style: none; 
+}
+#table ul li{
+	border:1px solid #ddd;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+
+
+#footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;	
+}
+
+#footer .btn{
+	background: #009688;
+}
+.footer{
+	text-align: center;
+	background: #333333;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+}
+#icon{
+	background: white;
+	margin-left: 10px;
+}

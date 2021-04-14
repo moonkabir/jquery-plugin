@@ -1,0 +1,17 @@
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+}
+.grid-item{
+	display: flex;
+	flex-wrap: wrap;
+}
+.grid-item--width2{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	width: 100%;
+}

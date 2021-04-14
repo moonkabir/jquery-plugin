@@ -1,0 +1,203 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://mhrahman.com
+    Description: This is html5 template
+    Author: Md hafijur Rahman
+    Author URI: http://mhrahman.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%; }
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: red!important;
+  opacity: 1!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: red!important;
+  opacity: 1!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: red!important;
+  opacity: 1!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: red!important;
+  opacity: 1!important;
+}
+
+blockquote{
+    border-left:0px;
+    position: relative;
+    padding-left: 25px;  
+    z-index: 2;
+}
+blockquote:before{
+    position: absolute;
+    content:"\f10d";
+    left: 0;
+    top: -4px;
+    font-size: 20px;
+    color: #ccc;
+    font-family: 'FontAwesome';
+    z-index: -1;
+}
+
+input{
+    box-shadow: none!important;
+    border-radius: 0px!important;
+    height: 50px!important;
+}
+/*Banner section*/
+.banner{
+    background: url(images/banner-1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: block;
+    position: relative;    
+    display: none  
+}
+
+.sec-1{
+    display: none;
+    
+}
+.styled-input{
+    color:red;
+    margin-top: 80px;
+}
+.positioning{
+    background: gold;
+    
+}
+
+#testimonials {
+    background: rgba(0, 0, 0, 0) url("images/2.jpg") no-repeat fixed center center / cover ;
+    color: #ffffff;
+}
+#testimonials .overlay {
+    background: rgba(0, 0, 0, 0.8) none repeat fixed 0 0;
+    padding: 80px 0;
+}
+.section-title.center {
+    padding: 30px 0;
+    text-align: center;
+}
+#testimonials .section-title.center h2 {
+    color: #eee;
+}
+.section-title h2, .section-title.center h2 {
+    /*color: #030303;*/
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+.section-title.center .line {
+    border-top: 3px solid #555;
+    height: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 60px;
+}
+#testimonial {
+    padding: 2px 0 30px;
+}
+#testimonial .item {
+    background-image: url("../img/blockquote.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+#testimonial .item h5 {
+    color: #cbcbcb;
+    font-family: "Lekton","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+}
+#testimonial .item img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 90px;
+    height: 90px;
+}
+#testimonial .item p {
+    color: #999;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span {
+    background: #fff none repeat scroll 0 0;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 0;
+    display: block;
+    height: 10px;
+    margin: 5px 7px;
+    opacity: 1;
+    transition: all 0.5s ease 0s;
+    width: 10px;
+}

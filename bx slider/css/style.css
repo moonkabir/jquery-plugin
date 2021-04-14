@@ -1,0 +1,9 @@
+.bx-wrapper .bx-pager.bx-default-pager a{
+	width: 50px;
+	height: 5px;
+}
+.slider p{
+	text-align: center;
+	color: #2c3e50;
+	padding: 20px 0px ; 
+}

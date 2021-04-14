@@ -1,0 +1,84 @@
+
+/******************
+1st owl carousel
+*******************/
+/*#brand-logo {
+    background-attachment: fixed;
+    background-image: url("img/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) inset;
+    color: white;
+    padding: 50px 0;
+    position: relative;
+}
+#brand-logo::before {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}*/
+#brand-carousel{
+    position: relative;
+}
+.carousel-body{
+    padding: 10px 100px;
+    color: black;
+}
+#brand-logo .item{
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    color: black;
+}
+#brand-logo .item img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.brand-navigation i.fa.fa-angle-left.fa-3x{
+    /*margin-top: -45px;*/
+    position: absolute;
+    top: 30%;
+    opacity: 1;
+    left: 50px;   
+    cursor: pointer;
+}
+.brand-navigation i.fa.fa-angle-right.fa-3x{
+    /*margin-top: -45px;*/
+    position: absolute;
+    top: 30%;
+    opacity: 1;
+    left: auto;
+    right: 50px;
+    cursor: pointer;
+}
+/*.list-inline {
+    list-style: outside none none;
+    margin-left: -5px;
+    padding-left: 0;
+}*/
+.fa.fa-quote-left {
+    padding: 15px 0;
+}
+/*.fa.fa-star {
+    color: #fdb825;
+}
+.list-inline li i {
+    padding-right: 5px;
+}*/
+.clients_name{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 900;
+}
+/*@media (max-width: 748px) {
+    .carousel-body{
+        padding: 10px 0px;
+    }
+}*/

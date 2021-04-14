@@ -1,0 +1,22 @@
+ul{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+	list-style: none;
+	background:#2c3e50;
+	margin: 1px solid black;
+	color: white;
+	cursor: pointer;
+
+}
+ul li{
+	width: auto;
+	height: auto;
+	padding: 20px;
+	float: left;
+}
+
+img{
+	width: 100%;
+	margin-bottom: 20px;
+}
