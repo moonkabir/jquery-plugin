@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <style>
+.mySlides {display: none}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+</head>
+<body>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="https://docs.woocommerce.com/wp-content/uploads/2014/08/docs-gallery-images.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="https://docs.woocommerce.com/wp-content/uploads/2012/06/variation-color-and-image-swatches-05-e1484578075779.png" style="width:100%">
+    </div>
+</div>
+<!-- <script>
+window.onload = (event) => {
+    var btn1 = document.createElement("a");
+    btn1.innerHTML = "&#10094;";
+    btn1.className = "prev";
+    btn1.setAttribute("onclick", "plusSlides(-1)");
+    document.querySelector(".slideshow-container").appendChild(btn1);
+
+    var btn2 = document.createElement("a");
+    btn2.innerHTML = "&#10095;";
+    btn2.className = "next";
+    btn2.setAttribute("onclick", "plusSlides(1)");
+    document.querySelector(".slideshow-container").appendChild(btn2);
+};
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+<script>
+    var slider = tns({
+        "container": ".slideshow-container",
+        "items": 2,
+        "controls": false,
+        "responsive": {
+            "350": {
+            "items": 3,
+            "controls": true,
+            "edgePadding": 30
+            },
+            "500": {
+            "items": 3
+            }
+        },
+        "swipeAngle": false,
+        "speed": 400
+    });
+</script>
+</body>
+</html> 
